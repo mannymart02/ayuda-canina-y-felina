@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+     <meta charset="iso-8859-1">
+     <meta name="description" content="Ejemplo de HTML5">
+     <meta name="keywords" content="HTML5, CSS3, JavaScript">
+	 <meta name="viewport"content="width-devion,minimum-scale-1.0, maximum-scale-1.0"/>
+     <title>Refugio</title>
+</head>
+<body>
+  <div id="agrupar">
+    <header id="cabecera">
+      <center><h1>Cuida a tu mascota</h1></center>
+    </header>
+    <nav id="menu">
+      <li><a href="mapa.html">clinicas</a></li>
+      <li><a href="vacunas.html">vacunas</a> </li> 
+    </nav>
+    <section id="seccion">
+      <article>
+        <header>
+            <h1>perros</h1>  
+           <time datetime="2022-05-21">publicado 21-05-2022</time>
+        </header>
+        <p>1.Alimentacion de calidad. Elegir un pienso nutritivo y darles una buena hidratacion es clave para el bienestar de los perros</p>
+        <p>2.Educacion animal</p>
+       <p>3.Higiene del perro.</p>
+       <p>4.Paseos y actividad fisica</p>
+        <p>5.Atencion y cuidados veterinarios.</p>
+        <figure>
+          <img src="img/perro.png">
+        </figure>
+        <footer>comentarios(0)</footer>
+      </article>
+      <header>
+        <h1>Gatos</h1>
+        <time datetime="2022-05-21">publicado 21-05-2022</time>
+      </header>
+      <p>Revision medica cada 6 meses para descartar enfermedades silenciosas.</p> <p>Vacunas anualmente.</p><p> Es importante que no salga de casa, un gato no debe salir de su espacio.</p> <p>Cuidar su alimentacion de acuerdo con sus necesidades de nutricion dadas por la edad, su condicion de salud, tipo de pelaje, etc</p>
+      <figure>
+          <img src="img/gato.jpg">
+        </figure>
+        <footer>comentarios(0)
+              <p><a href="index.html">regresar</a></p>
+        </footer>
+    </section>
+    <footer id="pie">
+      Derechos Reservados &copy;2022-2023
+    </footer>
+  </div>  
+  <style type="text/css">*{margin: 0px;padding: }
+h1{font: bold 20px verdana, sans-serif;color: #FF0000}
+p:nth-child(odd){background:#FFFF00;}
+p:nth-child(even){background:#FFA500;}
+#agrupar{width: 960px;margin: 15px auto;text-align: left;}
+#cabecera{background:#FF69B3;border: 1px solid #FF1493;padding: 20px; }
+#menu{background:#FF00FF;padding: 5px 15px;}
+#menu li{display: inline-block;list-style: none;padding: 5px;font: bold 20px verdana, sans-serif;}
+#seccion{float: left;width: 660px;margin: 20px;}
+#columna{float: left;width: 220px;margin: 20px 0px;padding: 20px;background:#CCCCCC; }
+#pie{clear: both;text-align: center;padding: 20px;border-top: 2px solid #999999;}
+article{background:#FFFBCC;border:1px solid #999999;padding: 20px;margin-bottom: 15px;}
+article footer{text-align: right;}
+time{color: #999999;}
+figcaption{font:italic 14px verdana, sans-serif;}</style>
+   </body>
+</html>
